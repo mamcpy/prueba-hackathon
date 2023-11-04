@@ -13,7 +13,7 @@ Las variables utilizadas para unir los datasets son "Codi_Districte", "Nom_Distr
 - Identificación del significado de la columna "Concepte" consultando la web del ayuntamiento de Barcelona.
 - Eliminación del % de la columna "Valor" y convertir en float para facilitar la manipulación.
 - Extra: Análisis exploratorio de datos (desarrollado en el cuaderno)
-- Realización de PCA mediante dos enfoques: aplicado a variables numéricas y aplicado a todo el dataset (justificación desarrollada en el notebook).
+- Realización de PCA mediante dos enfoques: aplicado a variables numéricas y aplicado a todo el dataset (justificación desarrollada en el cuaderno).
 - Estandarización de los datos numéricos previa a la PCA mediante StandardScaler (media = 0, varianza = 1) para evitar que algunas variables influyan más que otras en las principales componentes de la PCA.
 - OneHotEncoding las variables categóricas para realizar PCA sobre todo el dataset.
 
