@@ -1,5 +1,5 @@
 # prueba-hackathon
-Prueba Técnica Hackathon
+Prueba Técnica Hackathon J2D
 
 ## 1. Introducción
 Los conjuntos de datos escogidos son un dataset sobre [el alquiler de viviendas en Barcelona](https://opendata-ajuntament.barcelona.cat/data/es/dataset/est-mercat-immobiliari-lloguer-mitja-mensual/resource/0a71a12d-55fa-4a76-b816-4ee55f84d327) y otro dataset sobre [la exposición al ruido de la población de Barcelona](https://opendata-ajuntament.barcelona.cat/data/es/dataset/poblacio-exposada-mapa-estrategic-soroll/resource/3846500e-72aa-4780-967f-f09aa184eaba). 
