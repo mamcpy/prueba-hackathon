@@ -1,5 +1,5 @@
 # prueba-hackathon
-Este repositorio contiene mi prueba técnica
+Prueba Técnica Hackathon
 
 ## 1. Introducción
 Los conjuntos de datos escogidos son el dataset que contiene información sobre el alquiler de viviendas en Barcelona y el que contiene información sobre la exposición al ruido de la población de Barcelona. Las variables utilizadas para unir los datasets son "Codi_Districte", "Nom_Districte", "Codi_Barri" y "Nom_Barri", puesto que son comunes a ambos datasets.
