@@ -6,7 +6,7 @@ Los conjuntos de datos escogidos son un dataset sobre [el alquiler de viviendas 
 Las variables utilizadas para unir los datasets son "Codi_Districte", "Nom_Districte", "Codi_Barri" y "Nom_Barri", puesto que son comunes a ambos datasets.
 
 ## 2. Depuración de datos
-- Eliminación de la columna año que solo tiene un valor posible y no aporta información.
+- Eliminación de la columna año (2017) que solo tiene un valor posible y no aporta información.
 - Eliminación del valor "Lloguer mitjà per superfície (Euros/m2 mes)" dentro de la variable precio y creación de nueva variable "Àrea (m2)". Para realizarlo se ha observado el histograma y las principales estadísticas sobre la distribución de precios, así como el orden de los elementos y valores NaN.
 -  Eliminación de los valores NaN. Estudio de en qué distritos y barrios se encuentran estos valores y eliminación de los elementos en cuyos barrios no hay practicamente documentación sobre el precio del alquiler. Si por el contrario hay otros elementos del mismo barrio con información sobre su alquiler, extrapolar para obtener el valor NaN, realizando una ponderación entre la media del alquiler de su barrio y la media del alquiler de su distrito.
 - Conversión de datos de tipo categóricos a categórico para optimizar el uso de memoria.
