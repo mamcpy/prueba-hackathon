@@ -2,7 +2,10 @@
 Prueba Técnica Hackathon
 
 ## 1. Introducción
-Los conjuntos de datos escogidos son el dataset que contiene información sobre el alquiler de viviendas en Barcelona y el que contiene información sobre la exposición al ruido de la población de Barcelona. Las variables utilizadas para unir los datasets son "Codi_Districte", "Nom_Districte", "Codi_Barri" y "Nom_Barri", puesto que son comunes a ambos datasets.
+Los conjuntos de datos escogidos son el dataset sobre el [alquiler de viviendas en Barcelona] (https://opendata-ajuntament.barcelona.cat/data/es/dataset/est-mercat-immobiliari-lloguer-mitja-mensual/resource/0a71a12d-55fa-4a76-b816-4ee55f84d327) y el que contiene información sobre la exposición al ruido de la población de Barcelona. 
+Tenemos pues un dataset compuesto por 584 elementos en el que cada elemento cuenta con 8 columnas. A simple vista estas columnas son: el año (2017) y el trimestre en el que se recolectó la información,el nombre y código del distrito donde está la vivienda, el nombre y código del barrio donde está la vivienda, el precio y una columna llamada alquiler medio ("Lloguer_mitja") que exploraremos a continuación. 
+
+Las variables utilizadas para unir los datasets son "Codi_Districte", "Nom_Districte", "Codi_Barri" y "Nom_Barri", puesto que son comunes a ambos datasets.
 
 ## 2. Depuración de datos
 - Eliminación de la columna año que solo tiene un valor posible y no aporta información.
